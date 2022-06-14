@@ -25,17 +25,6 @@ class date:
         return str(self.y)+"/"+str(self.m)+"/"+str(self.d)
 
 
-"""         ret=TRUE
-        if self.y<other.y :
-            ret=FALSE
-        elif self.y==other.y:
-            if self.m < other.m :
-                ret=FALSE
-            elif self.m==other.m :
-                if self.d <= other.d :
-                    ret=FALSE
- """
-
 
 def isLeap(year) :
     leap=False
